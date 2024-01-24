@@ -1,8 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;600;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     font-family: calibri;
     box-sizing: border-box;
+    font-style: normal;
+}
+
+html
+{
+    scroll-behavior: smooth;
 }
 
 .container {
@@ -15,6 +23,13 @@
 .container>p {
     color: gray;
     letter-spacing: 1px;
+}
+
+.title-text
+{
+    font-family: dosis;
+    padding-top: 0.4rem;
+    font-size: 1.4rem;
 }
 
 .grid-container
@@ -31,7 +46,7 @@
 
 .plan-title-1,.plan-title-3
 {
-background-color: rgb(209, 224, 230);
+background-color: rgba(205, 152, 252, 0.5);
 padding: 0.8rem 2rem;
 }
 
@@ -63,9 +78,15 @@ padding: 0.8rem 2rem;
     gap: 1rem;
 }
 
+.plan-info>p
+{
+    color: black;
+    font-size: 0.9rem;
+}
+
 .plan-btn-2>button
 {
-    padding: 0.6rem;
+    padding: 0.6rem 0.8rem;
     border: none;
     background-color: darkblue;
     color: white;
@@ -75,10 +96,10 @@ padding: 0.8rem 2rem;
 
 .plan-btn>button
 {
-    padding: 0.6rem;
-    border: 1px solid darkblue;
+    padding: 0.6rem  0.8rem;
+    border: 1px solid blueviolet;
     background-color: white;
-    color:darkblue;
+    color:blueviolet;
     font-weight: 600;
     letter-spacing: 1px;
 }
@@ -93,11 +114,13 @@ padding: 0.8rem 2rem;
 {
 color: blueviolet;
 letter-spacing: 1px;
+font-family: dosis;
 }
 
-.plan-price
+.plan-price p
 {
     letter-spacing: 1px;
+    font-family: dosis;
 }
 
 
@@ -106,5 +129,10 @@ letter-spacing: 1px;
     {
         flex-direction: column;
         
+    }
+    .plan-content
+    {
+        box-shadow: rgba(84, 85, 87, 0.2) 0px 8px 24px;
+        background-color: white;
     }
 }
