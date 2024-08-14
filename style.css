@@ -46,15 +46,22 @@ html
 
 .plan-title-1,.plan-title-3
 {
-background-color: rgba(205, 152, 252, 0.5);
+background-color: blueviolet;
 padding: 0.8rem 2rem;
+color: #fff;
+letter-spacing: 1px;
+text-transform: uppercase;
+font-weight: 600;
 }
 
 .plan-title-2
 {
-    background-color: blueviolet;
+    background-color: blue;
     padding: 0.8rem 2rem;
-    color: white;
+    color: #fff;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 600;
 }
 
 .plan-content-2,.plan-content
@@ -64,6 +71,11 @@ padding: 0.8rem 2rem;
     gap: 2rem;
     padding-top:3rem;
     padding-bottom: 3rem;
+}
+.plan-content
+{
+    box-shadow: rgba(84, 85, 87, 0.2) 0px 8px 24px;
+
 }
 
 .plan-content-2
@@ -87,20 +99,23 @@ padding: 0.8rem 2rem;
 
 .plan-btn-2>button
 {
-    padding: 0.4rem 0.6rem;
+    padding: 0.4rem 0.8rem;
     border: none;
-    background-color: darkblue;
-    color: white;
+    background-color: blue;
+    color: #fff;
     letter-spacing: 1px;
+    border-radius: 2px;
 }
 
 .plan-btn>button
 {
     padding: 0.4rem  0.6rem;
     border: 1px solid blueviolet;
-    background-color: white;
+    border-radius: 2px;
+    background-color: #fff;
     color:blueviolet;
     letter-spacing: 1px;
+    cursor: pointer;
 }
 
 .number
@@ -111,7 +126,7 @@ padding: 0.8rem 2rem;
 
 .plan-price-2>p
 {
-color: blueviolet;
+color: blue;
 letter-spacing: 1px;
 font-family: dosis;
 }
